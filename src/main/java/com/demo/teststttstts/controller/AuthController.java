@@ -18,12 +18,12 @@ public class AuthController {
     @Autowired
     AuthService authService;
 
-    @GetMapping("/sign-up")
+    @PostMapping("/sign-up")
     public ResponseEntity<?> signUp(@Valid @RequestBody CreateUserRequest request) {
         return ResponseEntity.ok(authService.createUser(request));
     }
 
-    @GetMapping("/sign-in")
+    @PostMapping("/sign-in")
     public ResponseEntity<?> signIn(@Valid @RequestBody LoginRequest request) {
         return ResponseEntity.ok(authService.login(request));
     }
