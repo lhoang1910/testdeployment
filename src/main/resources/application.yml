@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: postgresql://postgres:aORoSJZpHGcCLXbOlfESLOJjZfYKkOQC@monorail.proxy.rlwy.net:27309/railway
+    username: postgres
+    password: aORoSJZpHGcCLXbOlfESLOJjZfYKkOQC
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+
+
+
