@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: postgresql://postgres:aORoSJZpHGcCLXbOlfESLOJjZfYKkOQC@monorail.proxy.rlwy.net:27309/railway
+    url: postgresql://postgres:yYwFNoMunhzLXSKOaTIPmseNupKZmBFK@monorail.proxy.rlwy.net:45879/railway
     username: postgres
-    password: aORoSJZpHGcCLXbOlfESLOJjZfYKkOQC
+    password: yYwFNoMunhzLXSKOaTIPmseNupKZmBFK
 
   jpa:
     show-sql: true
